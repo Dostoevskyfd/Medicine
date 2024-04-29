@@ -1,19 +1,15 @@
 /*первый блок*/
 h2{
--webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+-ms-user-select: all; 
+		-moz-user-select: all; 
+		-webkit-user-select: all; 
+		user-select: all; 
 }
 p{
-    -webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+    -ms-user-select: all; 
+		-moz-user-select: all; 
+		-webkit-user-select: all; 
+		user-select: all; 
 }
 .block-welcome{
     margin: 14px 103px;
